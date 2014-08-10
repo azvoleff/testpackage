@@ -1,9 +1,7 @@
 #' An S4 class that stores a string.
 #' @slot a contains a string
 #' @export
-setClass("testClass", 
-         representation(a="character"))
-
+setClass("testClass", representation(a="character"))
 
 #' Extract parts of testClass.
 #'
